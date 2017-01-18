@@ -1,0 +1,26 @@
+td.column,
+td.init-value,
+td.found-value {
+	font-size:72px;
+	width:72px;
+	height:72px;
+	text-align:center;
+	border:1px solid black;
+	cursor:pointer;
+}
+
+td.column:hover,
+td.init-value:hover,
+td.found-value:hover{
+	background-color:blue;
+}
+
+td.found-value {
+	color:#666;
+}
+
+td.column:focus,
+td.init-value:focus,
+td.found-value:focus{
+	background-color:green;
+}
